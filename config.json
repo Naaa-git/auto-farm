@@ -1,0 +1,42 @@
+{
+  "capture_list": {
+    "Flameling": "manual",
+    "Rare Dragon": "auto",
+    "Sparky": "auto"
+  },
+
+  "keys": {
+    "attack": "1",
+    "capture": "c",
+    "flee": "f",
+    "pause_resume": "F10",
+    "stop": "F12"
+  },
+
+  "capture_threshold": 80,
+
+  "timing": {
+    "scan_interval_ms": 500,
+    "after_attack_delay_ms": 1500,
+    "after_capture_delay_ms": 2000,
+    "battle_check_interval_ms": 800
+  },
+
+  "regions": {
+    "creature_name": [300, 100, 500, 140],
+    "capture_percentage": [400, 400, 550, 440],
+    "battle_indicator": [100, 80, 700, 120]
+  },
+
+  "assets": {
+    "attack_btn": "assets/attack_btn.png",
+    "capture_btn": "assets/capture_btn.png",
+    "battle_start_indicator": "assets/battle_start.png"
+  },
+
+  "notification": {
+    "sound_frequency": 1000,
+    "sound_duration_ms": 800,
+    "popup_timeout_ms": 0
+  }
+}
